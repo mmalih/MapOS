@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		968C92131FD5A65200B9E321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968C92121FD5A65200B9E321 /* AppDelegate.swift */; };
+		968C92151FD5A65200B9E321 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968C92141FD5A65200B9E321 /* ViewController.swift */; };
+		968C92181FD5A65200B9E321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968C92161FD5A65200B9E321 /* Main.storyboard */; };
+		968C921A1FD5A65200B9E321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968C92191FD5A65200B9E321 /* Assets.xcassets */; };
+		968C921D1FD5A65200B9E321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968C921B1FD5A65200B9E321 /* LaunchScreen.storyboard */; };
+		968C92221FD5A65200B9E321 /* MapOS WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 968C92211FD5A65200B9E321 /* MapOS WatchKit App.app */; };
+		968C92281FD5A65200B9E321 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968C92261FD5A65200B9E321 /* Interface.storyboard */; };
+		968C922A1FD5A65200B9E321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968C92291FD5A65200B9E321 /* Assets.xcassets */; };
+		968C92311FD5A65200B9E321 /* MapOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 968C92301FD5A65200B9E321 /* MapOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		968C92361FD5A65200B9E321 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968C92351FD5A65200B9E321 /* InterfaceController.swift */; };
+		968C92381FD5A65200B9E321 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968C92371FD5A65200B9E321 /* ExtensionDelegate.swift */; };
+		968C923A1FD5A65200B9E321 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968C92391FD5A65200B9E321 /* NotificationController.swift */; };
+		968C923C1FD5A65200B9E321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968C923B1FD5A65200B9E321 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		968C92231FD5A65200B9E321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 968C92071FD5A65200B9E321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 968C92201FD5A65200B9E321;
+			remoteInfo = "MapOS WatchKit App";
+		};
+		968C92321FD5A65200B9E321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 968C92071FD5A65200B9E321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 968C922F1FD5A65200B9E321;
+			remoteInfo = "MapOS WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		968C92441FD5A65200B9E321 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				968C92311FD5A65200B9E321 /* MapOS WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968C92481FD5A65200B9E321 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				968C92221FD5A65200B9E321 /* MapOS WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		968C920F1FD5A65200B9E321 /* MapOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		968C92121FD5A65200B9E321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		968C92141FD5A65200B9E321 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		968C92171FD5A65200B9E321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		968C92191FD5A65200B9E321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		968C921C1FD5A65200B9E321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		968C921E1FD5A65200B9E321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968C92211FD5A65200B9E321 /* MapOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MapOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		968C92271FD5A65200B9E321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		968C92291FD5A65200B9E321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		968C922B1FD5A65200B9E321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968C92301FD5A65200B9E321 /* MapOS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MapOS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		968C92351FD5A65200B9E321 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		968C92371FD5A65200B9E321 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		968C92391FD5A65200B9E321 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		968C923B1FD5A65200B9E321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		968C923D1FD5A65200B9E321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968C923E1FD5A65200B9E321 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		968C920C1FD5A65200B9E321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968C922D1FD5A65200B9E321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		968C92061FD5A65200B9E321 = {
+			isa = PBXGroup;
+			children = (
+				968C92111FD5A65200B9E321 /* MapOS */,
+				968C92251FD5A65200B9E321 /* MapOS WatchKit App */,
+				968C92341FD5A65200B9E321 /* MapOS WatchKit Extension */,
+				968C92101FD5A65200B9E321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		968C92101FD5A65200B9E321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				968C920F1FD5A65200B9E321 /* MapOS.app */,
+				968C92211FD5A65200B9E321 /* MapOS WatchKit App.app */,
+				968C92301FD5A65200B9E321 /* MapOS WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		968C92111FD5A65200B9E321 /* MapOS */ = {
+			isa = PBXGroup;
+			children = (
+				968C92121FD5A65200B9E321 /* AppDelegate.swift */,
+				968C92141FD5A65200B9E321 /* ViewController.swift */,
+				968C92161FD5A65200B9E321 /* Main.storyboard */,
+				968C92191FD5A65200B9E321 /* Assets.xcassets */,
+				968C921B1FD5A65200B9E321 /* LaunchScreen.storyboard */,
+				968C921E1FD5A65200B9E321 /* Info.plist */,
+			);
+			path = MapOS;
+			sourceTree = "<group>";
+		};
+		968C92251FD5A65200B9E321 /* MapOS WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				968C92261FD5A65200B9E321 /* Interface.storyboard */,
+				968C92291FD5A65200B9E321 /* Assets.xcassets */,
+				968C922B1FD5A65200B9E321 /* Info.plist */,
+			);
+			path = "MapOS WatchKit App";
+			sourceTree = "<group>";
+		};
+		968C92341FD5A65200B9E321 /* MapOS WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				968C92351FD5A65200B9E321 /* InterfaceController.swift */,
+				968C92371FD5A65200B9E321 /* ExtensionDelegate.swift */,
+				968C92391FD5A65200B9E321 /* NotificationController.swift */,
+				968C923B1FD5A65200B9E321 /* Assets.xcassets */,
+				968C923D1FD5A65200B9E321 /* Info.plist */,
+				968C923E1FD5A65200B9E321 /* PushNotificationPayload.apns */,
+			);
+			path = "MapOS WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		968C920E1FD5A65200B9E321 /* MapOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968C92491FD5A65200B9E321 /* Build configuration list for PBXNativeTarget "MapOS" */;
+			buildPhases = (
+				968C920B1FD5A65200B9E321 /* Sources */,
+				968C920C1FD5A65200B9E321 /* Frameworks */,
+				968C920D1FD5A65200B9E321 /* Resources */,
+				968C92481FD5A65200B9E321 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				968C92241FD5A65200B9E321 /* PBXTargetDependency */,
+			);
+			name = MapOS;
+			productName = MapOS;
+			productReference = 968C920F1FD5A65200B9E321 /* MapOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		968C92201FD5A65200B9E321 /* MapOS WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968C92451FD5A65200B9E321 /* Build configuration list for PBXNativeTarget "MapOS WatchKit App" */;
+			buildPhases = (
+				968C921F1FD5A65200B9E321 /* Resources */,
+				968C92441FD5A65200B9E321 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				968C92331FD5A65200B9E321 /* PBXTargetDependency */,
+			);
+			name = "MapOS WatchKit App";
+			productName = "MapOS WatchKit App";
+			productReference = 968C92211FD5A65200B9E321 /* MapOS WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		968C922F1FD5A65200B9E321 /* MapOS WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 968C92411FD5A65200B9E321 /* Build configuration list for PBXNativeTarget "MapOS WatchKit Extension" */;
+			buildPhases = (
+				968C922C1FD5A65200B9E321 /* Sources */,
+				968C922D1FD5A65200B9E321 /* Frameworks */,
+				968C922E1FD5A65200B9E321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MapOS WatchKit Extension";
+			productName = "MapOS WatchKit Extension";
+			productReference = 968C92301FD5A65200B9E321 /* MapOS WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		968C92071FD5A65200B9E321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Maeva;
+				TargetAttributes = {
+					968C920E1FD5A65200B9E321 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					968C92201FD5A65200B9E321 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					968C922F1FD5A65200B9E321 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 968C920A1FD5A65200B9E321 /* Build configuration list for PBXProject "MapOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 968C92061FD5A65200B9E321;
+			productRefGroup = 968C92101FD5A65200B9E321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				968C920E1FD5A65200B9E321 /* MapOS */,
+				968C92201FD5A65200B9E321 /* MapOS WatchKit App */,
+				968C922F1FD5A65200B9E321 /* MapOS WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		968C920D1FD5A65200B9E321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968C921D1FD5A65200B9E321 /* LaunchScreen.storyboard in Resources */,
+				968C921A1FD5A65200B9E321 /* Assets.xcassets in Resources */,
+				968C92181FD5A65200B9E321 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968C921F1FD5A65200B9E321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968C922A1FD5A65200B9E321 /* Assets.xcassets in Resources */,
+				968C92281FD5A65200B9E321 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968C922E1FD5A65200B9E321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968C923C1FD5A65200B9E321 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		968C920B1FD5A65200B9E321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968C92151FD5A65200B9E321 /* ViewController.swift in Sources */,
+				968C92131FD5A65200B9E321 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968C922C1FD5A65200B9E321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968C923A1FD5A65200B9E321 /* NotificationController.swift in Sources */,
+				968C92381FD5A65200B9E321 /* ExtensionDelegate.swift in Sources */,
+				968C92361FD5A65200B9E321 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		968C92241FD5A65200B9E321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 968C92201FD5A65200B9E321 /* MapOS WatchKit App */;
+			targetProxy = 968C92231FD5A65200B9E321 /* PBXContainerItemProxy */;
+		};
+		968C92331FD5A65200B9E321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 968C922F1FD5A65200B9E321 /* MapOS WatchKit Extension */;
+			targetProxy = 968C92321FD5A65200B9E321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		968C92161FD5A65200B9E321 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				968C92171FD5A65200B9E321 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		968C921B1FD5A65200B9E321 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				968C921C1FD5A65200B9E321 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		968C92261FD5A65200B9E321 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				968C92271FD5A65200B9E321 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		968C923F1FD5A65200B9E321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		968C92401FD5A65200B9E321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		968C92421FD5A65200B9E321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQNY2NC46;
+				INFOPLIST_FILE = "MapOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Maeva.MapOS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		968C92431FD5A65200B9E321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQNY2NC46;
+				INFOPLIST_FILE = "MapOS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Maeva.MapOS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		968C92461FD5A65200B9E321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQNY2NC46;
+				IBSC_MODULE = MapOS_WatchKit_Extension;
+				INFOPLIST_FILE = "MapOS WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Maeva.MapOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		968C92471FD5A65200B9E321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQNY2NC46;
+				IBSC_MODULE = MapOS_WatchKit_Extension;
+				INFOPLIST_FILE = "MapOS WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Maeva.MapOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		968C924A1FD5A65200B9E321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQNY2NC46;
+				INFOPLIST_FILE = MapOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Maeva.MapOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		968C924B1FD5A65200B9E321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HQNY2NC46;
+				INFOPLIST_FILE = MapOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Maeva.MapOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		968C920A1FD5A65200B9E321 /* Build configuration list for PBXProject "MapOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968C923F1FD5A65200B9E321 /* Debug */,
+				968C92401FD5A65200B9E321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		968C92411FD5A65200B9E321 /* Build configuration list for PBXNativeTarget "MapOS WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968C92421FD5A65200B9E321 /* Debug */,
+				968C92431FD5A65200B9E321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		968C92451FD5A65200B9E321 /* Build configuration list for PBXNativeTarget "MapOS WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968C92461FD5A65200B9E321 /* Debug */,
+				968C92471FD5A65200B9E321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		968C92491FD5A65200B9E321 /* Build configuration list for PBXNativeTarget "MapOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				968C924A1FD5A65200B9E321 /* Debug */,
+				968C924B1FD5A65200B9E321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 968C92071FD5A65200B9E321 /* Project object */;
+}
