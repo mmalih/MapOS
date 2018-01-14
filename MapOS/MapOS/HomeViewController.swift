@@ -1,25 +1,24 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  MapOS
 //
-//  Created by Maeva on 04/12/2017.
-//  Copyright © 2017 Maeva. All rights reserved.
+//  Created by Maeva on 14/01/2018.
+//  Copyright © 2018 Maeva. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
 }
-
